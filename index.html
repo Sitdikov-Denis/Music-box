@@ -4,23 +4,23 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./style/app.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic" rel="stylesheet" />
     <title>Music box</title>
 </head>
 <body>
 
     <div class="main">
-        <div class="registration">
+        <div class="page-description">
             <header>
                 <nav class = 'header'>
 
-                    <figure class="logo">
-                        <img class = "logo__img" src="./img/logo.jpg" alt="">
-                        <figcaption class = "logo__caption">Music box</figcaption> 
+                    <figure class="header__logo">
+                        <img class = "header__logo-img" src="./img/logo.jpg" alt="">
+                        <figcaption class = "header__logo-caption">Music box</figcaption> 
                     </figure>
-                    <div class="menu">
-                        <ul class = "menu__ul">
+                    <div class="header__menu">
+                        <ul class = "header__menu-ul">
                             <li>Главная</li>
                             <li>Каталог</li>
                             <li>Исполнители</li>
@@ -28,16 +28,24 @@
                         </ul>
                     </div>
 
-                    <div class="search">
+                    <div class="header__search">
                         <form action="">
-                            <input class = "search__input" type="text" placeholder="Поиск...">
+                            <input class = "header__search-input" type="text" placeholder="Поиск...">
                         </form>
                     </div>
                 </nav>
             </header>
 
-            <h1 class = "registration__h1">Онлайн музыка где угодно</h1>
-            <h2 class = "registration__h2">без ограничений</h2>
+            <h1 class = "page-description__h1">Онлайн музыка где угодно</h1>
+            <h2 class = "page-description__h2">без ограничений</h2>
+            <p class="page-description__text">Получите доступ всего за несколько шагов. Заполните форму ниже и откройте мир музыки</p>
+            <form class = "page-description__form" action="#">
+                <div class="page-description__inputs">
+                    <input class="page-description__input" type="text" placeholder="Имя">
+                    <input class="page-description__input" type="text" placeholder="Email">
+                </div>
+                <button class = "page-description__submit-button" type="submit">Получить доступ</button>
+            </form>
         </div>
     </div>
 </body>
