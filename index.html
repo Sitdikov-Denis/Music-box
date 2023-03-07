@@ -1,26 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style/app.css">
-    <link href="https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic" rel="stylesheet" />
+    <link
+        href="https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic"
+        rel="stylesheet" />
     <title>Music box</title>
 </head>
+
 <body>
 
     <div class="main">
         <div class="page-description">
             <header>
-                <nav class = 'header'>
+                <nav class='header'>
 
                     <figure class="header__logo">
-                        <img class = "header__logo-img" src="./img/logo.jpg" alt="">
-                        <figcaption class = "header__logo-caption">Music box</figcaption> 
+                        <img class="header__logo-img" src="./img/logo.jpg" alt="">
+                        <figcaption class="header__logo-caption">Music box</figcaption>
                     </figure>
                     <div class="header__menu">
-                        <ul class = "header__menu-ul">
+                        <ul class="header__menu-ul">
                             <li>Главная</li>
                             <li>Каталог</li>
                             <li>Исполнители</li>
@@ -30,23 +34,60 @@
 
                     <div class="header__search">
                         <form action="">
-                            <input class = "header__search-input" type="text" placeholder="Поиск...">
+                            <input class="header__search-input" type="text" placeholder="Поиск...">
                         </form>
                     </div>
                 </nav>
             </header>
 
-            <h1 class = "page-description__h1">Онлайн музыка где угодно</h1>
-            <h2 class = "page-description__h2">без ограничений</h2>
-            <p class="page-description__text">Получите доступ всего за несколько шагов. Заполните форму ниже и откройте мир музыки</p>
-            <form class = "page-description__form" action="#">
+            <h1 class="page-description__h1">Онлайн музыка где угодно</h1>
+            <h2 class="page-description__h2">без ограничений</h2>
+            <p class="page-description__text">Получите доступ всего за несколько шагов. Заполните форму ниже и откройте
+                мир музыки</p>
+            <form class="page-description__form" action="#">
                 <div class="page-description__inputs">
                     <input class="page-description__input" type="text" placeholder="Имя">
                     <input class="page-description__input" type="text" placeholder="Email">
                 </div>
-                <button class = "page-description__submit-button" type="submit">Получить доступ</button>
+                <button class="page-description__submit-button" type="submit">Получить доступ</button>
             </form>
         </div>
+        <div class="pricing">
+
+            <h3 class="pricing-title">Формы подписки</h3>
+
+            <div class="pricing-items">
+                
+                <div class="pricing-item bg-free">
+                    <h3>Бесплатная</h3>
+                    <p class="pricing-value">0 руб.</p>
+                    <a href=""></a>
+                    <div class="pricing-footer"></div>
+                </div>
+
+                <div class="pricing-item bg-standard">
+                    <h3>Стандартная</h3>
+                    <p class="pricing-value">0 руб.</p>
+                    <a href=""></a>
+                    <div class="pricing-footer"></div>
+                </div>
+
+                <div class="pricing-item bg-premium">
+                    <h3>Премиум</h3>
+                    <p class="pricing-value">0 руб.</p>
+                    <a href=""></a>
+                    <div class="pricing-footer"></div>
+                </div>
+
+                <div class="pricing-items__footer">
+                    На всех тарифах возможно прослушивание музыки с мобильных устройств.
+                     На премиум тарифе вы можете скачать все композиции на ваше устройство
+                      и слушать музыку без подключения к интернету
+                </div>
+            </div>
+        </div>
+
     </div>
 </body>
+
 </html>
