@@ -98,14 +98,40 @@
   .pricing-items {
     margin: 0 90px 30px 90px;
   }
+  .pricing-items__footer {
+    margin: 43px 90px 0 90px;
+  }
 }
 @media (max-width: 680px) {
   .pricing-items {
     margin: 0 60px 30px 60px;
   }
+  .pricing-items__footer {
+    margin: 43px 60px 0 60px;
+  }
 }
 @media (max-width: 460px) {
   .pricing-items {
     margin: 0 20px 30px 20px;
+  }
+  .pricing-items__footer {
+    margin: 43px 20px 0 20px;
+  }
+}
+@media (max-width: 380px) {
+  .pricing-item {
+    margin: 0 auto;
+    width: 300px;
+    height: 500px;
+  }
+  .pricing-item__button {
+    width: 280px;
+  }
+  .pricing-footer {
+    margin: 20px auto 0 auto;
+    width: 280px;
+  }
+  .pricing-value {
+    margin: 150px auto 30px auto;
   }
 }/*# sourceMappingURL=pricing-items.css.map */
