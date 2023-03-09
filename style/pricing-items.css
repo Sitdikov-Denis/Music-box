@@ -10,11 +10,11 @@
   background-image: url(../img/pricing-premium.jpg);
 }
 
-.pricing-title {
+.pricing-h2 {
   font-size: 38px;
   font-weight: 700;
   line-height: 57px;
-  letter-spacing: 0em;
+  text-transform: uppercase;
   text-align: center;
   margin: 101px auto 45px auto;
 }

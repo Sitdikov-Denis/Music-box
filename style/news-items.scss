@@ -1,7 +1,10 @@
+@import url(./general.css);
+
 .news-items {
     margin: 83px 120px 0 120px;
 
-    &__h3 {
+    &__h2 {
+        // @include h2;
         font-size: 38px;
         font-weight: 700;
         line-height: 57px;
@@ -96,7 +99,7 @@
     }
 }
 
-@media (max-width: 930px) {
+@media (max-width: 1130px) {
     .news-items {
         margin: 83px 90px 0 90px;
     }
@@ -130,7 +133,7 @@
     .news-items {
         margin: 83px 60px 0 60px;
     
-        &__h3 {
+        &__h2 {
             font-size: 18px;
             line-height: 27px;
         }
