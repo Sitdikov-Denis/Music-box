@@ -10,13 +10,17 @@
   background-image: url(../img/pricing-premium.jpg);
 }
 
+.pricing {
+  padding: 0 120px 0 120px;
+}
+
 .pricing-h2 {
   font-size: 38px;
   font-weight: 700;
   line-height: 57px;
   text-transform: uppercase;
   text-align: center;
-  margin: 101px auto 45px auto;
+  margin: 100px auto 45px auto;
 }
 
 .pricing-items {
@@ -24,7 +28,7 @@
   grid-template-columns: repeat(auto-fill, 368px);
   justify-content: center;
   grid-gap: 47px;
-  margin: 0 120px 90px 120px;
+  width: 100%;
   flex-wrap: wrap;
 }
 .pricing-items__footer {
@@ -33,14 +37,15 @@
   line-height: 24px;
   letter-spacing: 0em;
   text-align: center;
-  margin: 43px 120px 0 120px;
+  margin: 43px 0 0 0;
 }
 
 .pricing-item {
-  width: 368px;
-  height: 615px;
+  max-width: 368px;
+  max-height: 615px;
+  width: 100%;
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   margin: 0 0 0 0;
   border-radius: 20px;
 }
@@ -50,6 +55,13 @@
   line-height: 36px;
   margin: 24px 0 0 0;
   text-transform: uppercase;
+}
+.pricing-item__footer {
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 19px;
+  margin: 64px auto 64px auto;
+  width: 280px;
 }
 .pricing-item__button {
   display: flex;
@@ -89,49 +101,36 @@
   text-transform: uppercase;
 }
 
-.pricing-footer {
-  margin: 64px auto 0 auto;
-  width: 318px;
-}
-
-@media (max-width: 930px) {
-  .pricing-items {
-    margin: 0 90px 30px 90px;
-  }
-  .pricing-items__footer {
-    margin: 43px 90px 0 90px;
+@media (max-width: 1130px) {
+  .pricing {
+    padding: 0 120px 90px 120px;
   }
 }
-@media (max-width: 680px) {
-  .pricing-items {
-    margin: 0 60px 30px 60px;
+@media (max-width: 820px) {
+  .pricing {
+    padding: 0 60px 90px 60px;
   }
-  .pricing-items__footer {
-    margin: 43px 60px 0 60px;
+  .pricing-item__h3 {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .pricing-h2 {
+    font-size: 18px;
+    line-height: 27px;
   }
 }
-@media (max-width: 460px) {
-  .pricing-items {
-    margin: 0 20px 30px 20px;
-  }
-  .pricing-items__footer {
-    margin: 43px 20px 0 20px;
+@media (max-width: 640px) {
+  .pricing {
+    padding: 0 20px 90px 20px;
   }
 }
 @media (max-width: 380px) {
-  .pricing-item {
-    margin: 0 auto;
+  .pricing-items {
     width: 300px;
     height: 500px;
   }
-  .pricing-item__button {
-    width: 280px;
-  }
-  .pricing-footer {
-    margin: 20px auto 0 auto;
-    width: 280px;
-  }
-  .pricing-value {
-    margin: 150px auto 30px auto;
-  }
+}
+.pricing-footer {
+  margin: 20px auto 0 auto;
+  width: 280px;
 }/*# sourceMappingURL=pricing-items.css.map */

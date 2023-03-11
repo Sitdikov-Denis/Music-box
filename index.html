@@ -16,44 +16,52 @@
 
     <div class="main">
 
-        <div class="page-description">
-            <header>
-                <nav class='header'>
+        <div class="bg-page-description">
+            <div class="page-description container">
 
-                    <figure class="header__logo">
-                        <img class="header__logo-img" src="./img/logo.jpg" alt="">
-                        <figcaption class="header__logo-caption">Music box</figcaption>
-                    </figure>
-                    <div class="header__menu">
-                        <ul class="header__menu-ul">
-                            <li>Главная</li>
-                            <li>Каталог</li>
-                            <li>Исполнители</li>
-                            <li>Контакты</li>
-                        </ul>
+                <header>
+                    <nav class='header'>
+
+                        <figure class="header__logo">
+                            <img class="header__logo-img" src="./img/logo.jpg" alt="">
+                            <figcaption class="header__logo-caption">Music box</figcaption>
+                        </figure>
+                        <div class="header__menu">
+                            <ul class="header__menu-ul">
+                                <li>Главная</li>
+                                <li>Каталог</li>
+                                <li>Исполнители</li>
+                                <li>Контакты</li>
+                            </ul>
+                        </div>
+
+                        <div class="header__search">
+                            <form action="">
+                                <input class="header__search-input" type="text" placeholder="Поиск...">
+                            </form>
+                        </div>
+                    </nav>
+                </header>
+
+                <h1 class="page-description__h1">Онлайн музыка где угодно</h1>
+                <h2 class="page-description__h2">без ограничений</h2>
+                <p class="page-description__text">Получите доступ всего за несколько шагов. Заполните форму ниже и
+                    откройте
+                    мир музыки</p>
+                <form class="page-description__form" action="#">
+                    <div class="page-description__inputs">
+                        <input class="page-description__input" type="text" placeholder="Имя">
+                        <input class="page-description__input" type="text" placeholder="Email">
                     </div>
+                    <button class="page-description__submit-button" type="submit">Получить доступ</button>
+                </form>
 
-                    <div class="header__search">
-                        <form action="">
-                            <input class="header__search-input" type="text" placeholder="Поиск...">
-                        </form>
-                    </div>
-                </nav>
-            </header>
+            </div>
 
-            <h1 class="page-description__h1">Онлайн музыка где угодно</h1>
-            <h2 class="page-description__h2">без ограничений</h2>
-            <p class="page-description__text">Получите доступ всего за несколько шагов. Заполните форму ниже и откройте
-                мир музыки</p>
-            <form class="page-description__form" action="#">
-                <div class="page-description__inputs">
-                    <input class="page-description__input" type="text" placeholder="Имя">
-                    <input class="page-description__input" type="text" placeholder="Email">
-                </div>
-                <button class="page-description__submit-button" type="submit">Получить доступ</button>
-            </form>
         </div>
-        <div class="pricing">
+
+
+        <div class="pricing container">
 
             <h2 class="pricing-h2">Формы подписки</h2>
 
@@ -66,7 +74,7 @@
                         <p class="pricing-value__currency">руб.</p>
                     </div>
                     <a class="pricing-item__button" href="#">Оформить</a>
-                    <div class="pricing-footer">Оплата в месяц. Бесплатный тариф предоставляет
+                    <div class="pricing-item__footer">Оплата в месяц. Бесплатный тариф предоставляет
                         доступ ко всей коллекции музыки. Присутствует реклама</div>
                 </div>
 
@@ -77,7 +85,7 @@
                         <p class="pricing-value__currency">руб.</p>
                     </div>
                     <a class="pricing-item__button" href="#">Оформить</a>
-                    <div class="pricing-footer">Оплата в месяц. Стандартный тариф предоставляет
+                    <div class="pricing-item__footer">Оплата в месяц. Стандартный тариф предоставляет
                         доступ ко всей коллекции музыки в среднем качестве</div>
                 </div>
 
@@ -88,7 +96,7 @@
                         <p class="pricing-value__currency">руб.</p>
                     </div>
                     <a class="pricing-item__button" href="#">Оформить</a>
-                    <div class="pricing-footer">Оплата в месяц. Премиум тариф предоставляет
+                    <div class="pricing-item__footer">Оплата в месяц. Премиум тариф предоставляет
                         доступ ко всей коллекции музыки в высоком качестве</div>
                 </div>
 
@@ -100,14 +108,14 @@
             </div>
         </div>
 
-        <div class="news-items">
+        <div class="news-items container">
 
             <h2 class="news-items__h2">Последние новости</h2>
 
             <div class="news-item">
                 <img class="news-item__photo" src="./img/Eminem.jpg" alt="Eminem">
                 <div class="news-item__body">
-                    <h3 class="news-item__body-title">Music to Be Murdered By</h3>
+                    <h2 class="news-item__body-title">Music to Be Murdered By</h2>
                     <p class="news-item__body-text">
                         Новый альбом Eminem «Music to
                         Be Murdered By» уже доступен в нашем сервисе.
@@ -128,7 +136,7 @@
             <div class="news-item">
 
                 <div class="news-item__body">
-                    <h3 class="news-item__body-title">Ordinary Man</h3>
+                    <h2 class="news-item__body-title">Ordinary Man</h2>
                     <p class="news-item__body-text">
                         Легенда рока Оззи Озборн спустя 10 лет выпустил
                         новый альбом Ordinary Man. Слушайте в числе первых на Music Box
@@ -151,26 +159,69 @@
 
         </div>
 
-        <div class="page-app">
+        <div class="page-app container">
+
             <div class="page-app__h2">Мобильное приложение</div>
             <div class="page-app__container">
                 <div class="page-app__container-info">
                     <div class="page-app__container-info-text">
                         Воспользуйтесь нашим мобильным приложением.
-                    Оно позволит слушать музыку с любого устройства на базе операционных
-                    систем Androind и iOS
-                    С тарифом «Премиум» приложение позволяет скачивать все композиции из
-                    нашей коллекции. Вы можете слушать музыку даже без интернета.
+                        Оно позволит слушать музыку с любого устройства на базе операционных
+                        систем Androind и iOS<br><br>
+                        С тарифом «Премиум» приложение позволяет скачивать все композиции из
+                        нашей коллекции. Вы можете слушать музыку даже без интернета.
                     </div>
 
                     <a class="page-app__button">Скачать</a>
                 </div>
 
                 <img class="page-app__image" src="./img/iphones.svg" alt="iphones">
-                
+
             </div>
         </div>
 
+        <div class="bg-gradient">
+            <div class="container">
+                <div class="footer">
+                    <ul class="footer__ul">
+                        <li class="footer__ul-li">О нас</li>
+                        <li class="footer__ul-li">История компании</li>
+                        <li class="footer__ul-li">Карьера</li>
+                        <li class="footer__ul-li">Особенности</li>
+                        <li class="footer__ul-li">Пресса</li>
+                    </ul>
+                    <ul class="footer__ul">
+                        <li class="footer__ul-li">Поддержка</li>
+                        <li class="footer__ul-li">База знаний</li>
+                        <li class="footer__ul-li">Тарифы</li>
+                        <li class="footer__ul-li">Мобильное приложение</li>
+                        <li class="footer__ul-li">Условия использования</li>
+                    </ul>
+                    <ul class="footer__ul">
+                        <li class="footer__ul-li">Контакты</li>
+                        <li class="footer__ul-li">hello@music.box</li>
+                        <li class="footer__ul-li">Russia, Moscow. Music Box studio</li>
+                        <li class="footer__ul-li">+ 7 499 999 99 99</li>
+                    </ul>
+                    <ul class="footer__ul">
+                        <li class="footer__ul-li">Подписывайтесь</li>
+                        <div class="footer__ul-li-horizontal">
+                            <li class="footer__ul-li-logo"><img src="./img/Google.svg" alt="Google"></li>
+                            <li class="footer__ul-li-logo"><img src="./img/Twitter.svg" alt="Twitter"></li>
+                        </div>
+
+                    </ul>
+                </div>
+                <ul class="footer__horizontal-list">
+                    <li class="footer__horizontal-list-li">Магазин</li>
+                    <li class="footer__horizontal-list-li">Обслуживание</li>
+                    <li class="footer__horizontal-list-li">Блог</li>
+                    <li class="footer__horizontal-list-li">Поддержка</li>
+                    <li class="footer__horizontal-list-li">Контакты</li>
+                </ul>
+
+            </div>
+        </div>
     </div>
 </body>
 

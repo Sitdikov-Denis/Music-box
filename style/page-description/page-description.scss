@@ -1,24 +1,17 @@
 // @import url(../general.css);
-
-.main {
-    max-width: 1440px;
-    min-width: 280px;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    margin: 0 auto;
-    text-align: center;   
-}
-
-.page-description {
+.bg-page-description {
     background-image: url("../../img/title.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    // width: 100vw;
+}
+
+.page-description {
+    width: 100%;
     margin: 0 auto;
     padding: 0 120px 200px 120px;
     color:#FFFFFF;
-    min-width: 300px;
 
     &__h1 {
         font-weight: bold;
@@ -101,6 +94,7 @@
 }
 
 .header {
+    // position: fixed;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -178,9 +172,9 @@
 }
 
 
-@media (max-width: 930px) {
+@media (max-width: 1130px) {
     .page-description {
-        padding: 0 90px 0 90px;
+        padding: 0 90px 200px 90px;
         &__h1 {
             margin: 78px 0 0 0;
             font-size: 30px;
@@ -215,9 +209,9 @@
     }
 }
 
-@media (max-width: 680px) {
+@media (max-width: 820px) {
     .page-description {
-        padding: 0 60px 0 60px;
+        padding: 0 60px 200px 60px;
         &__h1 {
             margin: 78px 0 0 0;
             font-size: 30px;
@@ -252,9 +246,9 @@
     }
 }
 
-@media (max-width: 460px) {
+@media (max-width: 440px) {
     .page-description {
-        padding: 0 20px 0 20px;
+        padding: 0 20px 200px 20px;
         &__h1 {
             margin: 78px 0 0 0;
             font-size: 30px;
