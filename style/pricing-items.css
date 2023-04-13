@@ -25,7 +25,7 @@
 
 .pricing-items {
   display: grid;
-  grid-template-columns: repeat(auto-fill, 368px);
+  grid-template-columns: repeat(auto-fit, 367px);
   justify-content: center;
   grid-gap: 47px;
   width: 100%;
@@ -38,10 +38,11 @@
   letter-spacing: 0em;
   text-align: center;
   margin: 43px 0 0 0;
+  width: 100%;
 }
 
 .pricing-item {
-  max-width: 368px;
+  max-width: 367px;
   max-height: 615px;
   width: 100%;
   background-repeat: no-repeat;
@@ -61,14 +62,15 @@
   font-weight: 400;
   line-height: 19px;
   margin: 64px auto 64px auto;
-  width: 280px;
+  max-width: 300px;
+  box-sizing: border-box;
 }
 .pricing-item__button {
   display: flex;
   justify-content: center;
   align-items: center;
   margin: 0 auto;
-  width: 318px;
+  max-width: 220px;
   height: 66px;
   border: 1px solid white;
   border-radius: 5px;
@@ -124,13 +126,11 @@
     padding: 0 20px 90px 20px;
   }
 }
-@media (max-width: 380px) {
+@media (max-width: 480px) {
   .pricing-items {
-    width: 300px;
-    height: 500px;
+    grid-template-columns: repeat(auto-fill, 100%);
   }
-}
-.pricing-footer {
-  margin: 20px auto 0 auto;
-  width: 280px;
+  .pricing-item__footer {
+    margin: 20px auto 20px auto;
+  }
 }/*# sourceMappingURL=pricing-items.css.map */

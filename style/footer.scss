@@ -6,6 +6,7 @@
     display: flex;
     padding: 0 120px 72px 120px;
     flex-wrap: wrap;
+    width: 100%;
     border-bottom: 1px solid #CACACA;
 
     &__horizontal-list {
@@ -33,7 +34,7 @@
 
 .footer__ul-li {
     text-align: left;
-    width: 270px;
+    width: 100%;
 
     &-logo {
         width: 26px;

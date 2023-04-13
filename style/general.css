@@ -47,7 +47,6 @@ body {
 
 .container {
   max-width: 1440px;
-  min-width: 260px;
   display: flex;
   justify-content: center;
   flex-direction: column;
