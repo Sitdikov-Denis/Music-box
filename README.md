@@ -11,6 +11,7 @@
 
 * HTML5
 * CSS3
+* SCSS
 
 ## Project on githubPages
 
