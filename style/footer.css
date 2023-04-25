@@ -4,6 +4,7 @@
 
 .footer {
   display: flex;
+  justify-content: space-between;
   padding: 0 120px 72px 120px;
   flex-wrap: wrap;
   width: 100%;
